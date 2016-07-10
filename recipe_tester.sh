@@ -1,4 +1,4 @@
 #!/bin/bash
 
-git clone https://github.com/fuzzylogiq/recipe_checker.git
-cd recipe_checker && ./recipe_tester.py --json ../*/*.munki.recipe
+git clone https://github.com/fuzzylogiq/recipe_tester.git
+cd recipe_checker && ./recipe_tester.py ../*/*.munki.recipe
