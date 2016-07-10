@@ -1,4 +1,5 @@
 language: python
-script:
+before_script:
   - git clone https://github.com/fuzzylogiq/orchard-recipe-testing.git
+script:
   - find . -name "*.recipe" | xargs orchard-recipe-testing/recipe_tester.py
