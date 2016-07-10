@@ -30,8 +30,10 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>unstable</string>
+				<string>testing</string>
 			</array>
+      <key>category</key>
+      <string>Design and Media</string>
 			<key>description</key>
 			<string>Simple and fast transcode for various media formats.</string>
 			<key>developer</key>
